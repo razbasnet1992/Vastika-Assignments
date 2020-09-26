@@ -1,4 +1,4 @@
-package com.vastika.firsthw;
+package com.vastika.thirdassignments;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Temperature {
      void FahrenheitToC() {
    	  System.out.print("Enter temperature to convert :");
    	  double f = sc.nextDouble();
-   	  double c = (f-32)*5.0/9.0;
+   	  double c = (f-32)*5/9;
    	  System.out.printf(f +" degree fahrenheit is equal to "+"%.2f\n",c);
      }
 }

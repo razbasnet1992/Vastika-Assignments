@@ -1,4 +1,4 @@
-package com.vastika.firsthw;
+package com.vastika.secondhw;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class SumAverage {
 		
 		System.out.print("Enter second number");
 		int num2 = sc.nextInt();
-		
+		sc.close();
 		int sumofIntegers = sum(num1,num2);
 		double averageofNums = average(num1,num2);
 		System.out.println("Sum of "+num1+" and "+num2+" is: "+sumofIntegers);

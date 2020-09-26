@@ -1,4 +1,4 @@
-package com.vastika.firsthw;
+package com.vastika.thirdassignments;
 
 public class SwapNumbers {
 	public static void main(String...args) {

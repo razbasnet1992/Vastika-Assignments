@@ -1,4 +1,4 @@
-package com.vastika.firsthw;
+package com.vastika.thirdassignments;
 
 import java.util.Scanner;
 
