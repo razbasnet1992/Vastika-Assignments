@@ -9,6 +9,7 @@ public class AsciiCharacter {
 		int n = scanner.nextInt();
 		System.out.println((char)(n));
 		
+		int [] arr = {1,2,3,4};
 	}
 
 }

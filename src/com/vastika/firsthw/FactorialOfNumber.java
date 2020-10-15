@@ -13,14 +13,15 @@ public class FactorialOfNumber {
 	System.out.println("Factorial of "+number+" is "+factorial(number));
 	
 	}
-	public static int factorial(int n) {
+	public static double factorial(int n) {
 		
 		if(n==0) 
 			return 1;
 		
-		else 
+		else {
 			return n*factorial(n-1);
-		
+			
+		}
 	}
 
 }

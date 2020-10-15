@@ -7,21 +7,23 @@ public class DisplayName {
 		int length = name.length();
 		//name = name.trim();
 		System.out.println(name);
-		
+		//System.out.print(Character.toUpperCase(name.charAt(0))+". ");
 		String s = "";
 		for(int i=0;i<length;i++) {
 			char c = name.charAt(i);
-			if(c!=' ') {
-				s = s +c;
+			if(c==' ') {
 				
-			}
-			else {
 				System.out.print(Character.toUpperCase(s.charAt(0))+". ");
 				s = "";
-				
 			}
+				else {
+					
+					s = s +c;
+				}
+			
 		}
 		System.out.println(s);
+		
 		
 		
 	}
