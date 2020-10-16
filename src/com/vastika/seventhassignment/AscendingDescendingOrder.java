@@ -24,6 +24,10 @@ public class AscendingDescendingOrder {
 					temp = num[i];
 					num[i] = num[j];
 					num[j] = temp;
+					for (int j2 = 0; j2 < num.length; j2++) {
+						System.out.print(num[j2]+" ");
+					}
+					System.out.println();
 				}
 
 			}
