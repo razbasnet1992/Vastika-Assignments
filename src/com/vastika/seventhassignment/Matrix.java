@@ -9,8 +9,7 @@ public class Matrix {
 		List<List<Integer>> matrix1 = new ArrayList<List<Integer>>();
 		List<List<Integer>> matrix2 = new ArrayList<List<Integer>>();
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
-		result = matrix1;
-		System.out.println(result);
+		
 
 		// first matrix
 		matrix1.add(Arrays.asList(1, 2, 3));
@@ -31,7 +30,7 @@ public class Matrix {
 		for (List<Integer> a : result) {
 			for (int b : a) {
 
-				//result.add(Arrays.asList(matrix1.get(row).get(column) + matrix2.get(row).get(column)));
+				result.add(Arrays.asList(matrix1.get(row).get(column) + matrix2.get(row).get(column)));
 				
 
 				column++;

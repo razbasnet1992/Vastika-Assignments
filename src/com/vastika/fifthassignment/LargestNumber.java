@@ -30,10 +30,14 @@ public class LargestNumber {
 			System.out.println(z + " is the greatest number");
 
 		// with Stream api
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(2);
+		list.add(5);
+		list.add(7);
 
-		// int maxNumber = list.stream().reduce(Integer.MIN_VALUE,(a,
-		// b)->Integer.max(a,b));
-		// System.out.println("Using stream API :"+maxNumber);
+		int maxNumber = list.stream().reduce(Integer.MIN_VALUE,(a,
+				b)->Integer.max(a,b));
+		 System.out.println("Using stream API :"+maxNumber);
 
 		// Ternery Operator
 		String r = (x > y && x > z) ? x + " is greater than " + y + " and " + z
